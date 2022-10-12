@@ -1,0 +1,180 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Main.js css */
+.subApp{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(128, 128, 128, 0.349);
+}
+.Lag{
+  font-size: 3em;
+  font-family: Verdana,Tahoma, sans-serif;
+  color: rgba(41, 8, 8, 0.355);
+  background-color: rgba(0, 0, 0, 0.041);
+  margin-bottom: 0.8em;
+  margin-top: 0.3em;
+  border-radius: 10px;
+  border: 0.1em solid rgb(167, 29, 4);
+  width: 20em;
+}
+
+.carousel{
+  width: 80%;
+  height: 70%;
+  background-color: aqua;
+}
+
+.carousel-Inner{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ /* Chevron Left */
+.carousel-Inner .left{
+  flex: 5%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: grid;
+place-items: center;
+color: rgba(245, 222, 179, 0.443);
+cursor: pointer;
+}
+
+/* Chevron Right */
+.carousel-Inner .right{
+  flex: 5%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: grid;
+place-items: center;
+color: rgba(245, 222, 179, 0.443);
+cursor: pointer;
+}
+.carousel-Inner .center{
+  flex: 90%;
+  height: 100%;
+  display: grid;
+  place-content: center;
+  color: rgba(245, 245, 245, 0.462);
+  font-size: 50px;
+
+}
+
+.h2{
+  background-color: rgb(104, 75, 2);
+  border-radius: 10px;
+}
+
+.move{
+  background-color: rgba(0, 0, 0, 0.907);
+  color: rgba(255, 217, 0, 0.76);
+  border-bottom: 1px solid rgba(255, 0, 0, 0.361);
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.move img{
+  width: 50px;
+}
+
+.sectionjs{
+background-color: rgba(128, 128, 128, 0.349);}
+
+.btn_Clear{
+  padding: 3px;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: whitesmoke;
+  text-align: center;
+  font-weight: 300;
+  font-size: medium;
+  cursor: pointer;
+}
+
+.btn_Clear:hover{
+  color: rgb(167, 29, 4);
+}
+
+.btn{
+  width: 80%;
+  margin: auto;
+}
+
+.btn_Reset{
+  padding: 3px;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: whitesmoke;
+  text-align: center;
+  font-weight: 300;
+  font-size: medium;
+  cursor: pointer;
+}
+
+
+.btn_Reset:hover{
+  color: rgb(167, 29, 4);
+}
+
+
+
+/* MEDIA QUERIES */
+
+/* Mobil and small devices */
+@media(max-width:668px){
+
+.subApp{
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(128, 128, 128, 0.349);
+}
+
+  .Lag{
+      font-size: 1.5em;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: rgba(128, 128, 128, 0.355);
+      background-color: rgba(0, 0, 0, 0.041);
+      /* margin-bottom: 0.8em; */
+      border-radius: 10px;
+      border: 2px solid rgba(221, 160, 221, 0.279);
+      width: 90%;
+    }
+
+    .carousel{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(4, 88, 88);
+  }
+
+}
+
+
+/* Ipad */
+ @media(max-width:985px) {
+   .Lag{
+      font-size: 2em;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: rgba(128, 128, 128, 0.355);
+      background-color: rgba(0, 0, 0, 0.041);
+      border-radius: 10px;
+      border: 2px solid rgba(221, 160, 221, 0.279);
+      width: 90%;
+   }
+  }
